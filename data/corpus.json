@@ -1,0 +1,1322 @@
+[
+  {
+    "title": "A practical guide to bm25",
+    "body": "This post works through bm25 from first principles. We start with why bm25 matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers okapi inverse document frequency term saturation length normalisation postings list lexical retrieval.",
+    "url": "https://example.com/bm25-ranking/0",
+    "source": "https://eng.example.com/feed",
+    "published": "2026-09-01T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "Debugging okapi in production",
+    "body": "A short incident write-up. Our service degraded and okapi turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers bm25 inverse document frequency term saturation length normalisation postings list lexical retrieval.",
+    "url": "https://example.com/bm25-ranking/1",
+    "source": "https://notes.example.org/atom",
+    "published": "2026-08-25T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "Notes on inverse document frequency",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing inverse document frequency, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers bm25 okapi term saturation length normalisation postings list lexical retrieval.",
+    "url": "https://example.com/bm25-ranking/2",
+    "source": "https://blog.example.net/rss",
+    "published": "2026-08-18T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "term saturation: what the benchmarks actually show",
+    "body": "Benchmarks for term saturation are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers bm25 okapi inverse document frequency length normalisation postings list lexical retrieval.",
+    "url": "https://example.com/bm25-ranking/3",
+    "source": "https://eng.example.com/feed",
+    "published": "2026-08-11T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "Why we moved away from length normalisation",
+    "body": "We used length normalisation for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers bm25 okapi inverse document frequency term saturation postings list lexical retrieval.",
+    "url": "https://example.com/bm25-ranking/4",
+    "source": "https://notes.example.org/atom",
+    "published": "2026-08-04T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "A practical guide to postings list",
+    "body": "This post works through postings list from first principles. We start with why postings list matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers bm25 okapi inverse document frequency term saturation length normalisation lexical retrieval.",
+    "url": "https://example.com/bm25-ranking/5",
+    "source": "https://blog.example.net/rss",
+    "published": "2026-07-28T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "Debugging lexical retrieval in production",
+    "body": "A short incident write-up. Our service degraded and lexical retrieval turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers bm25 okapi inverse document frequency term saturation length normalisation postings list.",
+    "url": "https://example.com/bm25-ranking/6",
+    "source": "https://eng.example.com/feed",
+    "published": "2026-07-21T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "Notes on bm25",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing bm25, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers okapi inverse document frequency term saturation length normalisation postings list lexical retrieval.",
+    "url": "https://example.com/bm25-ranking/7",
+    "source": "https://notes.example.org/atom",
+    "published": "2026-07-14T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "okapi: what the benchmarks actually show",
+    "body": "Benchmarks for okapi are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers bm25 inverse document frequency term saturation length normalisation postings list lexical retrieval.",
+    "url": "https://example.com/bm25-ranking/8",
+    "source": "https://blog.example.net/rss",
+    "published": "2026-07-07T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "Why we moved away from inverse document frequency",
+    "body": "We used inverse document frequency for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers bm25 okapi term saturation length normalisation postings list lexical retrieval.",
+    "url": "https://example.com/bm25-ranking/9",
+    "source": "https://eng.example.com/feed",
+    "published": "2026-06-30T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "A practical guide to term saturation",
+    "body": "This post works through term saturation from first principles. We start with why term saturation matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers bm25 okapi inverse document frequency length normalisation postings list lexical retrieval.",
+    "url": "https://example.com/bm25-ranking/10",
+    "source": "https://notes.example.org/atom",
+    "published": "2026-06-23T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "Debugging length normalisation in production",
+    "body": "A short incident write-up. Our service degraded and length normalisation turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers bm25 okapi inverse document frequency term saturation postings list lexical retrieval.",
+    "url": "https://example.com/bm25-ranking/11",
+    "source": "https://blog.example.net/rss",
+    "published": "2026-06-16T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "Notes on postings list",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing postings list, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers bm25 okapi inverse document frequency term saturation length normalisation lexical retrieval.",
+    "url": "https://example.com/bm25-ranking/12",
+    "source": "https://eng.example.com/feed",
+    "published": "2026-06-09T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "lexical retrieval: what the benchmarks actually show",
+    "body": "Benchmarks for lexical retrieval are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers bm25 okapi inverse document frequency term saturation length normalisation postings list.",
+    "url": "https://example.com/bm25-ranking/13",
+    "source": "https://notes.example.org/atom",
+    "published": "2026-06-02T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "Why we moved away from embedding",
+    "body": "We used embedding for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers cosine similarity approximate nearest neighbour hnsw graph vector database dense retrieval quantisation.",
+    "url": "https://example.com/vector-search/14",
+    "source": "https://blog.example.net/rss",
+    "published": "2026-05-26T00:00:00+00:00",
+    "topic": "vector-search"
+  },
+  {
+    "title": "A practical guide to cosine similarity",
+    "body": "This post works through cosine similarity from first principles. We start with why cosine similarity matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers embedding approximate nearest neighbour hnsw graph vector database dense retrieval quantisation.",
+    "url": "https://example.com/vector-search/15",
+    "source": "https://eng.example.com/feed",
+    "published": "2026-05-19T00:00:00+00:00",
+    "topic": "vector-search"
+  },
+  {
+    "title": "Debugging approximate nearest neighbour in production",
+    "body": "A short incident write-up. Our service degraded and approximate nearest neighbour turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers embedding cosine similarity hnsw graph vector database dense retrieval quantisation.",
+    "url": "https://example.com/vector-search/16",
+    "source": "https://notes.example.org/atom",
+    "published": "2026-05-12T00:00:00+00:00",
+    "topic": "vector-search"
+  },
+  {
+    "title": "Notes on hnsw graph",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing hnsw graph, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers embedding cosine similarity approximate nearest neighbour vector database dense retrieval quantisation.",
+    "url": "https://example.com/vector-search/17",
+    "source": "https://blog.example.net/rss",
+    "published": "2026-05-05T00:00:00+00:00",
+    "topic": "vector-search"
+  },
+  {
+    "title": "vector database: what the benchmarks actually show",
+    "body": "Benchmarks for vector database are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers embedding cosine similarity approximate nearest neighbour hnsw graph dense retrieval quantisation.",
+    "url": "https://example.com/vector-search/18",
+    "source": "https://eng.example.com/feed",
+    "published": "2026-04-28T00:00:00+00:00",
+    "topic": "vector-search"
+  },
+  {
+    "title": "Why we moved away from dense retrieval",
+    "body": "We used dense retrieval for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers embedding cosine similarity approximate nearest neighbour hnsw graph vector database quantisation.",
+    "url": "https://example.com/vector-search/19",
+    "source": "https://notes.example.org/atom",
+    "published": "2026-04-21T00:00:00+00:00",
+    "topic": "vector-search"
+  },
+  {
+    "title": "A practical guide to quantisation",
+    "body": "This post works through quantisation from first principles. We start with why quantisation matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers embedding cosine similarity approximate nearest neighbour hnsw graph vector database dense retrieval.",
+    "url": "https://example.com/vector-search/20",
+    "source": "https://blog.example.net/rss",
+    "published": "2026-04-14T00:00:00+00:00",
+    "topic": "vector-search"
+  },
+  {
+    "title": "Debugging embedding in production",
+    "body": "A short incident write-up. Our service degraded and embedding turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers cosine similarity approximate nearest neighbour hnsw graph vector database dense retrieval quantisation.",
+    "url": "https://example.com/vector-search/21",
+    "source": "https://eng.example.com/feed",
+    "published": "2026-04-07T00:00:00+00:00",
+    "topic": "vector-search"
+  },
+  {
+    "title": "Notes on cosine similarity",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing cosine similarity, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers embedding approximate nearest neighbour hnsw graph vector database dense retrieval quantisation.",
+    "url": "https://example.com/vector-search/22",
+    "source": "https://notes.example.org/atom",
+    "published": "2026-03-31T00:00:00+00:00",
+    "topic": "vector-search"
+  },
+  {
+    "title": "approximate nearest neighbour: what the benchmarks actually show",
+    "body": "Benchmarks for approximate nearest neighbour are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers embedding cosine similarity hnsw graph vector database dense retrieval quantisation.",
+    "url": "https://example.com/vector-search/23",
+    "source": "https://blog.example.net/rss",
+    "published": "2026-03-24T00:00:00+00:00",
+    "topic": "vector-search"
+  },
+  {
+    "title": "Why we moved away from hnsw graph",
+    "body": "We used hnsw graph for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers embedding cosine similarity approximate nearest neighbour vector database dense retrieval quantisation.",
+    "url": "https://example.com/vector-search/24",
+    "source": "https://eng.example.com/feed",
+    "published": "2026-03-17T00:00:00+00:00",
+    "topic": "vector-search"
+  },
+  {
+    "title": "A practical guide to vector database",
+    "body": "This post works through vector database from first principles. We start with why vector database matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers embedding cosine similarity approximate nearest neighbour hnsw graph dense retrieval quantisation.",
+    "url": "https://example.com/vector-search/25",
+    "source": "https://notes.example.org/atom",
+    "published": "2026-03-10T00:00:00+00:00",
+    "topic": "vector-search"
+  },
+  {
+    "title": "Debugging dense retrieval in production",
+    "body": "A short incident write-up. Our service degraded and dense retrieval turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers embedding cosine similarity approximate nearest neighbour hnsw graph vector database quantisation.",
+    "url": "https://example.com/vector-search/26",
+    "source": "https://blog.example.net/rss",
+    "published": "2026-03-03T00:00:00+00:00",
+    "topic": "vector-search"
+  },
+  {
+    "title": "Notes on quantisation",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing quantisation, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers embedding cosine similarity approximate nearest neighbour hnsw graph vector database dense retrieval.",
+    "url": "https://example.com/vector-search/27",
+    "source": "https://eng.example.com/feed",
+    "published": "2026-02-24T00:00:00+00:00",
+    "topic": "vector-search"
+  },
+  {
+    "title": "ndcg: what the benchmarks actually show",
+    "body": "Benchmarks for ndcg are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers discounted cumulative gain precision at k relevance judgement graded labels mean reciprocal rank offline evaluation.",
+    "url": "https://example.com/search-evaluation/28",
+    "source": "https://notes.example.org/atom",
+    "published": "2026-02-17T00:00:00+00:00",
+    "topic": "search-evaluation"
+  },
+  {
+    "title": "Why we moved away from discounted cumulative gain",
+    "body": "We used discounted cumulative gain for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers ndcg precision at k relevance judgement graded labels mean reciprocal rank offline evaluation.",
+    "url": "https://example.com/search-evaluation/29",
+    "source": "https://blog.example.net/rss",
+    "published": "2026-02-10T00:00:00+00:00",
+    "topic": "search-evaluation"
+  },
+  {
+    "title": "A practical guide to precision at k",
+    "body": "This post works through precision at k from first principles. We start with why precision at k matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers ndcg discounted cumulative gain relevance judgement graded labels mean reciprocal rank offline evaluation.",
+    "url": "https://example.com/search-evaluation/30",
+    "source": "https://eng.example.com/feed",
+    "published": "2026-02-03T00:00:00+00:00",
+    "topic": "search-evaluation"
+  },
+  {
+    "title": "Debugging relevance judgement in production",
+    "body": "A short incident write-up. Our service degraded and relevance judgement turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers ndcg discounted cumulative gain precision at k graded labels mean reciprocal rank offline evaluation.",
+    "url": "https://example.com/search-evaluation/31",
+    "source": "https://notes.example.org/atom",
+    "published": "2026-01-27T00:00:00+00:00",
+    "topic": "search-evaluation"
+  },
+  {
+    "title": "Notes on graded labels",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing graded labels, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers ndcg discounted cumulative gain precision at k relevance judgement mean reciprocal rank offline evaluation.",
+    "url": "https://example.com/search-evaluation/32",
+    "source": "https://blog.example.net/rss",
+    "published": "2026-01-20T00:00:00+00:00",
+    "topic": "search-evaluation"
+  },
+  {
+    "title": "mean reciprocal rank: what the benchmarks actually show",
+    "body": "Benchmarks for mean reciprocal rank are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers ndcg discounted cumulative gain precision at k relevance judgement graded labels offline evaluation.",
+    "url": "https://example.com/search-evaluation/33",
+    "source": "https://eng.example.com/feed",
+    "published": "2026-01-13T00:00:00+00:00",
+    "topic": "search-evaluation"
+  },
+  {
+    "title": "Why we moved away from offline evaluation",
+    "body": "We used offline evaluation for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers ndcg discounted cumulative gain precision at k relevance judgement graded labels mean reciprocal rank.",
+    "url": "https://example.com/search-evaluation/34",
+    "source": "https://notes.example.org/atom",
+    "published": "2026-01-06T00:00:00+00:00",
+    "topic": "search-evaluation"
+  },
+  {
+    "title": "A practical guide to ndcg",
+    "body": "This post works through ndcg from first principles. We start with why ndcg matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers discounted cumulative gain precision at k relevance judgement graded labels mean reciprocal rank offline evaluation.",
+    "url": "https://example.com/search-evaluation/35",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-12-30T00:00:00+00:00",
+    "topic": "search-evaluation"
+  },
+  {
+    "title": "Debugging discounted cumulative gain in production",
+    "body": "A short incident write-up. Our service degraded and discounted cumulative gain turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers ndcg precision at k relevance judgement graded labels mean reciprocal rank offline evaluation.",
+    "url": "https://example.com/search-evaluation/36",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-12-23T00:00:00+00:00",
+    "topic": "search-evaluation"
+  },
+  {
+    "title": "Notes on precision at k",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing precision at k, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers ndcg discounted cumulative gain relevance judgement graded labels mean reciprocal rank offline evaluation.",
+    "url": "https://example.com/search-evaluation/37",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-12-16T00:00:00+00:00",
+    "topic": "search-evaluation"
+  },
+  {
+    "title": "relevance judgement: what the benchmarks actually show",
+    "body": "Benchmarks for relevance judgement are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers ndcg discounted cumulative gain precision at k graded labels mean reciprocal rank offline evaluation.",
+    "url": "https://example.com/search-evaluation/38",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-12-09T00:00:00+00:00",
+    "topic": "search-evaluation"
+  },
+  {
+    "title": "Why we moved away from graded labels",
+    "body": "We used graded labels for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers ndcg discounted cumulative gain precision at k relevance judgement mean reciprocal rank offline evaluation.",
+    "url": "https://example.com/search-evaluation/39",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-12-02T00:00:00+00:00",
+    "topic": "search-evaluation"
+  },
+  {
+    "title": "A practical guide to mean reciprocal rank",
+    "body": "This post works through mean reciprocal rank from first principles. We start with why mean reciprocal rank matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers ndcg discounted cumulative gain precision at k relevance judgement graded labels offline evaluation.",
+    "url": "https://example.com/search-evaluation/40",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-11-25T00:00:00+00:00",
+    "topic": "search-evaluation"
+  },
+  {
+    "title": "Debugging offline evaluation in production",
+    "body": "A short incident write-up. Our service degraded and offline evaluation turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers ndcg discounted cumulative gain precision at k relevance judgement graded labels mean reciprocal rank.",
+    "url": "https://example.com/search-evaluation/41",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-11-18T00:00:00+00:00",
+    "topic": "search-evaluation"
+  },
+  {
+    "title": "Notes on retrieval augmented generation",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing retrieval augmented generation, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers chunking strategy context window grounding hallucination query rewriting reranker.",
+    "url": "https://example.com/rag-pipelines/42",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-11-11T00:00:00+00:00",
+    "topic": "rag-pipelines"
+  },
+  {
+    "title": "chunking strategy: what the benchmarks actually show",
+    "body": "Benchmarks for chunking strategy are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers retrieval augmented generation context window grounding hallucination query rewriting reranker.",
+    "url": "https://example.com/rag-pipelines/43",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-11-04T00:00:00+00:00",
+    "topic": "rag-pipelines"
+  },
+  {
+    "title": "Why we moved away from context window",
+    "body": "We used context window for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers retrieval augmented generation chunking strategy grounding hallucination query rewriting reranker.",
+    "url": "https://example.com/rag-pipelines/44",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-10-28T00:00:00+00:00",
+    "topic": "rag-pipelines"
+  },
+  {
+    "title": "A practical guide to grounding",
+    "body": "This post works through grounding from first principles. We start with why grounding matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers retrieval augmented generation chunking strategy context window hallucination query rewriting reranker.",
+    "url": "https://example.com/rag-pipelines/45",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-10-21T00:00:00+00:00",
+    "topic": "rag-pipelines"
+  },
+  {
+    "title": "Debugging hallucination in production",
+    "body": "A short incident write-up. Our service degraded and hallucination turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers retrieval augmented generation chunking strategy context window grounding query rewriting reranker.",
+    "url": "https://example.com/rag-pipelines/46",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-10-14T00:00:00+00:00",
+    "topic": "rag-pipelines"
+  },
+  {
+    "title": "Notes on query rewriting",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing query rewriting, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers retrieval augmented generation chunking strategy context window grounding hallucination reranker.",
+    "url": "https://example.com/rag-pipelines/47",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-10-07T00:00:00+00:00",
+    "topic": "rag-pipelines"
+  },
+  {
+    "title": "reranker: what the benchmarks actually show",
+    "body": "Benchmarks for reranker are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers retrieval augmented generation chunking strategy context window grounding hallucination query rewriting.",
+    "url": "https://example.com/rag-pipelines/48",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-09-30T00:00:00+00:00",
+    "topic": "rag-pipelines"
+  },
+  {
+    "title": "Why we moved away from retrieval augmented generation",
+    "body": "We used retrieval augmented generation for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers chunking strategy context window grounding hallucination query rewriting reranker.",
+    "url": "https://example.com/rag-pipelines/49",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-09-23T00:00:00+00:00",
+    "topic": "rag-pipelines"
+  },
+  {
+    "title": "A practical guide to chunking strategy",
+    "body": "This post works through chunking strategy from first principles. We start with why chunking strategy matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers retrieval augmented generation context window grounding hallucination query rewriting reranker.",
+    "url": "https://example.com/rag-pipelines/50",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-09-16T00:00:00+00:00",
+    "topic": "rag-pipelines"
+  },
+  {
+    "title": "Debugging context window in production",
+    "body": "A short incident write-up. Our service degraded and context window turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers retrieval augmented generation chunking strategy grounding hallucination query rewriting reranker.",
+    "url": "https://example.com/rag-pipelines/51",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-09-09T00:00:00+00:00",
+    "topic": "rag-pipelines"
+  },
+  {
+    "title": "Notes on grounding",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing grounding, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers retrieval augmented generation chunking strategy context window hallucination query rewriting reranker.",
+    "url": "https://example.com/rag-pipelines/52",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-09-02T00:00:00+00:00",
+    "topic": "rag-pipelines"
+  },
+  {
+    "title": "hallucination: what the benchmarks actually show",
+    "body": "Benchmarks for hallucination are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers retrieval augmented generation chunking strategy context window grounding query rewriting reranker.",
+    "url": "https://example.com/rag-pipelines/53",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-08-26T00:00:00+00:00",
+    "topic": "rag-pipelines"
+  },
+  {
+    "title": "Why we moved away from query rewriting",
+    "body": "We used query rewriting for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers retrieval augmented generation chunking strategy context window grounding hallucination reranker.",
+    "url": "https://example.com/rag-pipelines/54",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-08-19T00:00:00+00:00",
+    "topic": "rag-pipelines"
+  },
+  {
+    "title": "A practical guide to reranker",
+    "body": "This post works through reranker from first principles. We start with why reranker matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers retrieval augmented generation chunking strategy context window grounding hallucination query rewriting.",
+    "url": "https://example.com/rag-pipelines/55",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-08-12T00:00:00+00:00",
+    "topic": "rag-pipelines"
+  },
+  {
+    "title": "Debugging asyncio in production",
+    "body": "A short incident write-up. Our service degraded and asyncio turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers event loop coroutine semaphore concurrency limit await task group.",
+    "url": "https://example.com/async-python/56",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-08-05T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Notes on event loop",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing event loop, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers asyncio coroutine semaphore concurrency limit await task group.",
+    "url": "https://example.com/async-python/57",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-07-29T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "coroutine: what the benchmarks actually show",
+    "body": "Benchmarks for coroutine are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers asyncio event loop semaphore concurrency limit await task group.",
+    "url": "https://example.com/async-python/58",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-07-22T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Why we moved away from semaphore",
+    "body": "We used semaphore for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers asyncio event loop coroutine concurrency limit await task group.",
+    "url": "https://example.com/async-python/59",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-07-15T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "A practical guide to concurrency limit",
+    "body": "This post works through concurrency limit from first principles. We start with why concurrency limit matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers asyncio event loop coroutine semaphore await task group.",
+    "url": "https://example.com/async-python/60",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-07-08T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Debugging await in production",
+    "body": "A short incident write-up. Our service degraded and await turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers asyncio event loop coroutine semaphore concurrency limit task group.",
+    "url": "https://example.com/async-python/61",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-07-01T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Notes on task group",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing task group, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers asyncio event loop coroutine semaphore concurrency limit await.",
+    "url": "https://example.com/async-python/62",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-06-24T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "asyncio: what the benchmarks actually show",
+    "body": "Benchmarks for asyncio are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers event loop coroutine semaphore concurrency limit await task group.",
+    "url": "https://example.com/async-python/63",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-06-17T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Why we moved away from event loop",
+    "body": "We used event loop for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers asyncio coroutine semaphore concurrency limit await task group.",
+    "url": "https://example.com/async-python/64",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-06-10T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "A practical guide to coroutine",
+    "body": "This post works through coroutine from first principles. We start with why coroutine matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers asyncio event loop semaphore concurrency limit await task group.",
+    "url": "https://example.com/async-python/65",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-06-03T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Debugging semaphore in production",
+    "body": "A short incident write-up. Our service degraded and semaphore turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers asyncio event loop coroutine concurrency limit await task group.",
+    "url": "https://example.com/async-python/66",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-05-27T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Notes on concurrency limit",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing concurrency limit, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers asyncio event loop coroutine semaphore await task group.",
+    "url": "https://example.com/async-python/67",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-05-20T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "await: what the benchmarks actually show",
+    "body": "Benchmarks for await are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers asyncio event loop coroutine semaphore concurrency limit task group.",
+    "url": "https://example.com/async-python/68",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-05-13T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Why we moved away from task group",
+    "body": "We used task group for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers asyncio event loop coroutine semaphore concurrency limit await.",
+    "url": "https://example.com/async-python/69",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-05-06T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "A practical guide to profiling",
+    "body": "This post works through profiling from first principles. We start with why profiling matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers cprofile flame graph memory allocation cpython interpreter bytecode hot loop.",
+    "url": "https://example.com/python-performance/70",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-04-29T00:00:00+00:00",
+    "topic": "python-performance"
+  },
+  {
+    "title": "Debugging cprofile in production",
+    "body": "A short incident write-up. Our service degraded and cprofile turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers profiling flame graph memory allocation cpython interpreter bytecode hot loop.",
+    "url": "https://example.com/python-performance/71",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-04-22T00:00:00+00:00",
+    "topic": "python-performance"
+  },
+  {
+    "title": "Notes on flame graph",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing flame graph, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers profiling cprofile memory allocation cpython interpreter bytecode hot loop.",
+    "url": "https://example.com/python-performance/72",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-04-15T00:00:00+00:00",
+    "topic": "python-performance"
+  },
+  {
+    "title": "memory allocation: what the benchmarks actually show",
+    "body": "Benchmarks for memory allocation are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers profiling cprofile flame graph cpython interpreter bytecode hot loop.",
+    "url": "https://example.com/python-performance/73",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-04-08T00:00:00+00:00",
+    "topic": "python-performance"
+  },
+  {
+    "title": "Why we moved away from cpython interpreter",
+    "body": "We used cpython interpreter for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers profiling cprofile flame graph memory allocation bytecode hot loop.",
+    "url": "https://example.com/python-performance/74",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-04-01T00:00:00+00:00",
+    "topic": "python-performance"
+  },
+  {
+    "title": "A practical guide to bytecode",
+    "body": "This post works through bytecode from first principles. We start with why bytecode matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers profiling cprofile flame graph memory allocation cpython interpreter hot loop.",
+    "url": "https://example.com/python-performance/75",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-03-25T00:00:00+00:00",
+    "topic": "python-performance"
+  },
+  {
+    "title": "Debugging hot loop in production",
+    "body": "A short incident write-up. Our service degraded and hot loop turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers profiling cprofile flame graph memory allocation cpython interpreter bytecode.",
+    "url": "https://example.com/python-performance/76",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-03-18T00:00:00+00:00",
+    "topic": "python-performance"
+  },
+  {
+    "title": "Notes on profiling",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing profiling, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers cprofile flame graph memory allocation cpython interpreter bytecode hot loop.",
+    "url": "https://example.com/python-performance/77",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-03-11T00:00:00+00:00",
+    "topic": "python-performance"
+  },
+  {
+    "title": "cprofile: what the benchmarks actually show",
+    "body": "Benchmarks for cprofile are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers profiling flame graph memory allocation cpython interpreter bytecode hot loop.",
+    "url": "https://example.com/python-performance/78",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-03-04T00:00:00+00:00",
+    "topic": "python-performance"
+  },
+  {
+    "title": "Why we moved away from flame graph",
+    "body": "We used flame graph for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers profiling cprofile memory allocation cpython interpreter bytecode hot loop.",
+    "url": "https://example.com/python-performance/79",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-02-25T00:00:00+00:00",
+    "topic": "python-performance"
+  },
+  {
+    "title": "A practical guide to memory allocation",
+    "body": "This post works through memory allocation from first principles. We start with why memory allocation matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers profiling cprofile flame graph cpython interpreter bytecode hot loop.",
+    "url": "https://example.com/python-performance/80",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-02-18T00:00:00+00:00",
+    "topic": "python-performance"
+  },
+  {
+    "title": "Debugging cpython interpreter in production",
+    "body": "A short incident write-up. Our service degraded and cpython interpreter turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers profiling cprofile flame graph memory allocation bytecode hot loop.",
+    "url": "https://example.com/python-performance/81",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-02-11T00:00:00+00:00",
+    "topic": "python-performance"
+  },
+  {
+    "title": "Notes on bytecode",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing bytecode, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers profiling cprofile flame graph memory allocation cpython interpreter hot loop.",
+    "url": "https://example.com/python-performance/82",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-02-04T00:00:00+00:00",
+    "topic": "python-performance"
+  },
+  {
+    "title": "hot loop: what the benchmarks actually show",
+    "body": "Benchmarks for hot loop are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers profiling cprofile flame graph memory allocation cpython interpreter bytecode.",
+    "url": "https://example.com/python-performance/83",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-01-28T00:00:00+00:00",
+    "topic": "python-performance"
+  },
+  {
+    "title": "Why we moved away from btree index",
+    "body": "We used btree index for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers query planner sequential scan explain analyze partial index vacuum bloat.",
+    "url": "https://example.com/postgres-indexing/84",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-01-21T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "A practical guide to query planner",
+    "body": "This post works through query planner from first principles. We start with why query planner matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers btree index sequential scan explain analyze partial index vacuum bloat.",
+    "url": "https://example.com/postgres-indexing/85",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-01-14T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Debugging sequential scan in production",
+    "body": "A short incident write-up. Our service degraded and sequential scan turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers btree index query planner explain analyze partial index vacuum bloat.",
+    "url": "https://example.com/postgres-indexing/86",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-01-07T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Notes on explain analyze",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing explain analyze, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers btree index query planner sequential scan partial index vacuum bloat.",
+    "url": "https://example.com/postgres-indexing/87",
+    "source": "https://eng.example.com/feed",
+    "published": "2024-12-31T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "partial index: what the benchmarks actually show",
+    "body": "Benchmarks for partial index are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers btree index query planner sequential scan explain analyze vacuum bloat.",
+    "url": "https://example.com/postgres-indexing/88",
+    "source": "https://notes.example.org/atom",
+    "published": "2024-12-24T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Why we moved away from vacuum",
+    "body": "We used vacuum for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers btree index query planner sequential scan explain analyze partial index bloat.",
+    "url": "https://example.com/postgres-indexing/89",
+    "source": "https://blog.example.net/rss",
+    "published": "2024-12-17T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "A practical guide to bloat",
+    "body": "This post works through bloat from first principles. We start with why bloat matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers btree index query planner sequential scan explain analyze partial index vacuum.",
+    "url": "https://example.com/postgres-indexing/90",
+    "source": "https://eng.example.com/feed",
+    "published": "2024-12-10T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Debugging btree index in production",
+    "body": "A short incident write-up. Our service degraded and btree index turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers query planner sequential scan explain analyze partial index vacuum bloat.",
+    "url": "https://example.com/postgres-indexing/91",
+    "source": "https://notes.example.org/atom",
+    "published": "2024-12-03T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Notes on query planner",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing query planner, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers btree index sequential scan explain analyze partial index vacuum bloat.",
+    "url": "https://example.com/postgres-indexing/92",
+    "source": "https://blog.example.net/rss",
+    "published": "2024-11-26T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "sequential scan: what the benchmarks actually show",
+    "body": "Benchmarks for sequential scan are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers btree index query planner explain analyze partial index vacuum bloat.",
+    "url": "https://example.com/postgres-indexing/93",
+    "source": "https://eng.example.com/feed",
+    "published": "2024-11-19T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Why we moved away from explain analyze",
+    "body": "We used explain analyze for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers btree index query planner sequential scan partial index vacuum bloat.",
+    "url": "https://example.com/postgres-indexing/94",
+    "source": "https://notes.example.org/atom",
+    "published": "2024-11-12T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "A practical guide to partial index",
+    "body": "This post works through partial index from first principles. We start with why partial index matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers btree index query planner sequential scan explain analyze vacuum bloat.",
+    "url": "https://example.com/postgres-indexing/95",
+    "source": "https://blog.example.net/rss",
+    "published": "2024-11-05T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Debugging vacuum in production",
+    "body": "A short incident write-up. Our service degraded and vacuum turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers btree index query planner sequential scan explain analyze partial index bloat.",
+    "url": "https://example.com/postgres-indexing/96",
+    "source": "https://eng.example.com/feed",
+    "published": "2024-10-29T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Notes on bloat",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing bloat, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers btree index query planner sequential scan explain analyze partial index vacuum.",
+    "url": "https://example.com/postgres-indexing/97",
+    "source": "https://notes.example.org/atom",
+    "published": "2024-10-22T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "shard key: what the benchmarks actually show",
+    "body": "Benchmarks for shard key are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers horizontal partitioning rebalancing consistent hashing cross shard join replication lag.",
+    "url": "https://example.com/database-sharding/98",
+    "source": "https://blog.example.net/rss",
+    "published": "2024-10-15T00:00:00+00:00",
+    "topic": "database-sharding"
+  },
+  {
+    "title": "Why we moved away from horizontal partitioning",
+    "body": "We used horizontal partitioning for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers shard key rebalancing consistent hashing cross shard join replication lag.",
+    "url": "https://example.com/database-sharding/99",
+    "source": "https://eng.example.com/feed",
+    "published": "2024-10-08T00:00:00+00:00",
+    "topic": "database-sharding"
+  },
+  {
+    "title": "A practical guide to rebalancing",
+    "body": "This post works through rebalancing from first principles. We start with why rebalancing matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers shard key horizontal partitioning consistent hashing cross shard join replication lag.",
+    "url": "https://example.com/database-sharding/100",
+    "source": "https://notes.example.org/atom",
+    "published": "2024-10-01T00:00:00+00:00",
+    "topic": "database-sharding"
+  },
+  {
+    "title": "Debugging consistent hashing in production",
+    "body": "A short incident write-up. Our service degraded and consistent hashing turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers shard key horizontal partitioning rebalancing cross shard join replication lag.",
+    "url": "https://example.com/database-sharding/101",
+    "source": "https://blog.example.net/rss",
+    "published": "2024-09-24T00:00:00+00:00",
+    "topic": "database-sharding"
+  },
+  {
+    "title": "Notes on cross shard join",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing cross shard join, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers shard key horizontal partitioning rebalancing consistent hashing replication lag.",
+    "url": "https://example.com/database-sharding/102",
+    "source": "https://eng.example.com/feed",
+    "published": "2024-09-17T00:00:00+00:00",
+    "topic": "database-sharding"
+  },
+  {
+    "title": "replication lag: what the benchmarks actually show",
+    "body": "Benchmarks for replication lag are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers shard key horizontal partitioning rebalancing consistent hashing cross shard join.",
+    "url": "https://example.com/database-sharding/103",
+    "source": "https://notes.example.org/atom",
+    "published": "2024-09-10T00:00:00+00:00",
+    "topic": "database-sharding"
+  },
+  {
+    "title": "Why we moved away from shard key",
+    "body": "We used shard key for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers horizontal partitioning rebalancing consistent hashing cross shard join replication lag.",
+    "url": "https://example.com/database-sharding/104",
+    "source": "https://blog.example.net/rss",
+    "published": "2024-09-03T00:00:00+00:00",
+    "topic": "database-sharding"
+  },
+  {
+    "title": "A practical guide to horizontal partitioning",
+    "body": "This post works through horizontal partitioning from first principles. We start with why horizontal partitioning matters, then build a small example, measure it, and discuss where the approach stops being appropriate. Related material covers shard key rebalancing consistent hashing cross shard join replication lag.",
+    "url": "https://example.com/database-sharding/105",
+    "source": "https://eng.example.com/feed",
+    "published": "2024-08-27T00:00:00+00:00",
+    "topic": "database-sharding"
+  },
+  {
+    "title": "Debugging rebalancing in production",
+    "body": "A short incident write-up. Our service degraded and rebalancing turned out to be the cause. This covers how we found it, what the fix was, and the monitoring we added so the next occurrence is obvious. Related material covers shard key horizontal partitioning consistent hashing cross shard join replication lag.",
+    "url": "https://example.com/database-sharding/106",
+    "source": "https://notes.example.org/atom",
+    "published": "2024-08-20T00:00:00+00:00",
+    "topic": "database-sharding"
+  },
+  {
+    "title": "Notes on consistent hashing",
+    "body": "Working notes rather than a tutorial. Observations collected while implementing consistent hashing, including two things the documentation does not make obvious and one benchmark that contradicted what we expected. Related material covers shard key horizontal partitioning rebalancing cross shard join replication lag.",
+    "url": "https://example.com/database-sharding/107",
+    "source": "https://blog.example.net/rss",
+    "published": "2024-08-13T00:00:00+00:00",
+    "topic": "database-sharding"
+  },
+  {
+    "title": "cross shard join: what the benchmarks actually show",
+    "body": "Benchmarks for cross shard join are widely quoted and rarely reproduced. We reran them on our own workload and got materially different numbers. This explains the discrepancy and what it means in practice. Related material covers shard key horizontal partitioning rebalancing consistent hashing replication lag.",
+    "url": "https://example.com/database-sharding/108",
+    "source": "https://eng.example.com/feed",
+    "published": "2024-08-06T00:00:00+00:00",
+    "topic": "database-sharding"
+  },
+  {
+    "title": "Why we moved away from replication lag",
+    "body": "We used replication lag for two years and recently replaced it. This is an honest account of what it was good at, the constraint that eventually made it untenable, and what the migration cost. Related material covers shard key horizontal partitioning rebalancing consistent hashing cross shard join.",
+    "url": "https://example.com/database-sharding/109",
+    "source": "https://notes.example.org/atom",
+    "published": "2024-07-30T00:00:00+00:00",
+    "topic": "database-sharding"
+  },
+  {
+    "title": "Hiring notes from our 2026 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about bm25, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/rag-pipelines/distractor-110",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-10-06T00:00:00+00:00",
+    "topic": "rag-pipelines"
+  },
+  {
+    "title": "Hiring notes from our 2024 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about okapi, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/rag-pipelines/distractor-111",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-10-03T00:00:00+00:00",
+    "topic": "rag-pipelines"
+  },
+  {
+    "title": "Hiring notes from our 2025 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about inverse document frequency, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/rag-pipelines/distractor-112",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-09-30T00:00:00+00:00",
+    "topic": "rag-pipelines"
+  },
+  {
+    "title": "Hiring notes from our 2026 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about term saturation, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/rag-pipelines/distractor-113",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-09-27T00:00:00+00:00",
+    "topic": "rag-pipelines"
+  },
+  {
+    "title": "Hiring notes from our 2024 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about length normalisation, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/rag-pipelines/distractor-114",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-09-24T00:00:00+00:00",
+    "topic": "rag-pipelines"
+  },
+  {
+    "title": "Hiring notes from our 2025 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about postings list, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/rag-pipelines/distractor-115",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-09-21T00:00:00+00:00",
+    "topic": "rag-pipelines"
+  },
+  {
+    "title": "Hiring notes from our 2026 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about lexical retrieval, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/rag-pipelines/distractor-116",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-09-18T00:00:00+00:00",
+    "topic": "rag-pipelines"
+  },
+  {
+    "title": "Hiring notes from our 2024 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about embedding, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/search-evaluation/distractor-117",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-09-15T00:00:00+00:00",
+    "topic": "search-evaluation"
+  },
+  {
+    "title": "Hiring notes from our 2025 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about cosine similarity, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/search-evaluation/distractor-118",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-09-12T00:00:00+00:00",
+    "topic": "search-evaluation"
+  },
+  {
+    "title": "Hiring notes from our 2026 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about approximate nearest neighbour, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/search-evaluation/distractor-119",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-09-09T00:00:00+00:00",
+    "topic": "search-evaluation"
+  },
+  {
+    "title": "Hiring notes from our 2024 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about hnsw graph, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/search-evaluation/distractor-120",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-09-06T00:00:00+00:00",
+    "topic": "search-evaluation"
+  },
+  {
+    "title": "Hiring notes from our 2025 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about vector database, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/search-evaluation/distractor-121",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-09-03T00:00:00+00:00",
+    "topic": "search-evaluation"
+  },
+  {
+    "title": "Hiring notes from our 2026 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about dense retrieval, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/search-evaluation/distractor-122",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-08-31T00:00:00+00:00",
+    "topic": "search-evaluation"
+  },
+  {
+    "title": "Hiring notes from our 2024 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about quantisation, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/search-evaluation/distractor-123",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-08-28T00:00:00+00:00",
+    "topic": "search-evaluation"
+  },
+  {
+    "title": "Hiring notes from our 2025 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about ndcg, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/async-python/distractor-124",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-08-25T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Hiring notes from our 2026 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about discounted cumulative gain, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/async-python/distractor-125",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-08-22T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Hiring notes from our 2024 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about precision at k, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/async-python/distractor-126",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-08-19T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Hiring notes from our 2025 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about relevance judgement, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/async-python/distractor-127",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-08-16T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Hiring notes from our 2026 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about graded labels, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/async-python/distractor-128",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-08-13T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Hiring notes from our 2024 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about mean reciprocal rank, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/async-python/distractor-129",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-08-10T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Hiring notes from our 2025 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about offline evaluation, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/async-python/distractor-130",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-08-07T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Hiring notes from our 2026 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about retrieval augmented generation, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/async-python/distractor-131",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-08-04T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Hiring notes from our 2024 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about chunking strategy, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/async-python/distractor-132",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-08-01T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Hiring notes from our 2025 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about context window, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/async-python/distractor-133",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-07-29T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Hiring notes from our 2026 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about grounding, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/async-python/distractor-134",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-07-26T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Hiring notes from our 2024 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about hallucination, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/async-python/distractor-135",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-07-23T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Hiring notes from our 2025 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about query rewriting, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/async-python/distractor-136",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-07-20T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Hiring notes from our 2026 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about reranker, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/async-python/distractor-137",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-07-17T00:00:00+00:00",
+    "topic": "async-python"
+  },
+  {
+    "title": "Hiring notes from our 2024 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about asyncio, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/postgres-indexing/distractor-138",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-07-14T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Hiring notes from our 2025 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about event loop, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/postgres-indexing/distractor-139",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-07-11T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Hiring notes from our 2026 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about coroutine, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/postgres-indexing/distractor-140",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-07-08T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Hiring notes from our 2024 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about semaphore, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/postgres-indexing/distractor-141",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-07-05T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Hiring notes from our 2025 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about concurrency limit, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/postgres-indexing/distractor-142",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-07-02T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Hiring notes from our 2026 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about await, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/postgres-indexing/distractor-143",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-06-29T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Hiring notes from our 2024 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about task group, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/postgres-indexing/distractor-144",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-06-26T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Hiring notes from our 2025 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about profiling, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/postgres-indexing/distractor-145",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-06-23T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Hiring notes from our 2026 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about cprofile, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/postgres-indexing/distractor-146",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-06-20T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Hiring notes from our 2024 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about flame graph, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/postgres-indexing/distractor-147",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-06-17T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Hiring notes from our 2025 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about memory allocation, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/postgres-indexing/distractor-148",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-06-14T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Hiring notes from our 2026 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about cpython interpreter, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/postgres-indexing/distractor-149",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-06-11T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Hiring notes from our 2024 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about bytecode, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/postgres-indexing/distractor-150",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-06-08T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Hiring notes from our 2025 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about hot loop, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/postgres-indexing/distractor-151",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-06-05T00:00:00+00:00",
+    "topic": "postgres-indexing"
+  },
+  {
+    "title": "Hiring notes from our 2026 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about btree index, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/bm25-ranking/distractor-152",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-06-02T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "Hiring notes from our 2024 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about query planner, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/bm25-ranking/distractor-153",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-05-30T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "Hiring notes from our 2025 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about sequential scan, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/bm25-ranking/distractor-154",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-05-27T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "Hiring notes from our 2026 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about explain analyze, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/bm25-ranking/distractor-155",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-05-24T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "Hiring notes from our 2024 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about partial index, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/bm25-ranking/distractor-156",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-05-21T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "Hiring notes from our 2025 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about vacuum, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/bm25-ranking/distractor-157",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-05-18T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "Hiring notes from our 2026 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about bloat, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/bm25-ranking/distractor-158",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-05-15T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "Hiring notes from our 2024 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about shard key, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/bm25-ranking/distractor-159",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-05-12T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "Hiring notes from our 2025 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about horizontal partitioning, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/bm25-ranking/distractor-160",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-05-09T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "Hiring notes from our 2026 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about rebalancing, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/bm25-ranking/distractor-161",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-05-06T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "Hiring notes from our 2024 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about consistent hashing, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/bm25-ranking/distractor-162",
+    "source": "https://eng.example.com/feed",
+    "published": "2025-05-03T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "Hiring notes from our 2025 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about cross shard join, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/bm25-ranking/distractor-163",
+    "source": "https://notes.example.org/atom",
+    "published": "2025-04-30T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  },
+  {
+    "title": "Hiring notes from our 2026 engineering round",
+    "body": "An account of how we restructured interviewing this year: what we removed, what we kept, and the outcomes six months on. One candidate asked about replication lag, which prompted a longer discussion we have written up separately. Most of this post is about process rather than technology.",
+    "url": "https://example.com/bm25-ranking/distractor-164",
+    "source": "https://blog.example.net/rss",
+    "published": "2025-04-27T00:00:00+00:00",
+    "topic": "bm25-ranking"
+  }
+]
